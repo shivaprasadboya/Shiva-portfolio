@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Shivaprasad Boya</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <!-- <div class="theme-toggle ms-3"> -->
+                    <!-- <i class="bi bi-moon-fill"></i>
+                </div> -->
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6 animate__animated animate__fadeInLeft">
+                    <div class="hero-content">
+                        <h1 class="display-3 fw-bold">Hi, I'm <span class="highlight">BOYA SHIVA PRASAD</span></h1>
+                        <p class="typing-text fs-4">Iam  passionate Software Developer with a strong
+                             focus on building intelligent AI Chatbots and Voice Bots. <span class="typed-text"></span></p>
+                        <div class="cta-buttons">
+                            <a href="#projects" class="btn btn-primary btn-lg me-3">View My Work</a>
+                            <a href="#contact" class="btn btn-outline-primary btn-lg">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 animate__animated animate__fadeInRight">
+                    <div class="hero-image">
+                        <div class="image-container">
+                            <img src="shiva-port1.jpg" alt="Profile" class="img-fluid rounded-circle">
+                            <div class="floating-badge">
+                                <i class="bi bi-code-slash"></i>
+                            </div>
+                            <div class="floating-badge-2">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <p class="lead">I am a passionate software developer with expertise in building modern web applications and AI-powered solutions. My focus is on creating intuitive user experiences and implementing cutting-edge technologies.</p>
+                        <p>With a strong foundation in both frontend and backend development, I specialize in creating seamless integrations between different technologies and platforms.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-image">
+                        <img src="about1.jpg" alt="Profile" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="3">0</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="3">3</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="3">3</div>
+                            <div class="stat-label">AI Integrations</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">My Projects</h2>
+            
+            <!-- Course Selection Project -->
+            <div class="project-item">
+                <div class="project-image">
+                    <img src="prj6.webp" alt="Course Selection System" class="img-fluid">
+                </div>
+                <div class="project-content">
+                    <h3>Skill Score</h3>
+                    <div class="tech-stack">
+                        <span class="badge bg-primary">MERN Stack</span>
+                        <span class="badge bg-success">Education</span>
+                    </div>
+                    <p class="lead">    Developed a full-stack event management system allowing colleges to post events, with students from other colleges able to view and register. Built using the MERN stack for seamless real-time interactions.
+.</p>
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                           <li>Multi-college event posting and discovery system</li>
+        <li>User registration and login with secure JWT-based authentication</li>
+        <li>Real-time updates for event participation</li>
+        <li>Admin panel for event approval and user management</li>
+        <li>Fully responsive UI built with React and Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-primary me-2">
+                            <i class="bi bi-play-circle"></i> Live Demo
+                        </a>
+                        <a href="#" class="btn btn-outline-primary">
+                            <i class="bi bi-github"></i> Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Shopping Application -->
+            <div class="project-item">
+                <div class="project-image">
+                    <img src="prj-2.jpg" alt="Shopping App" class="img-fluid">
+                </div>
+                <div class="project-content">
+                    <h3>Shopping Application</h3>
+                    <div class="tech-stack">
+                        <span class="badge bg-primary">MERN Stack</span>
+                        <span class="badge bg-info">Full Stack</span>
+                    </div>
+                    <p class="lead">A comprehensive shopping application built with the MERN stack, offering an intuitive and seamless shopping experience.</p>
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Intuitive item management (add, remove, edit)</li>
+                            <li>Seamless frontend-backend integration</li>
+                            <li>Responsive design for all devices</li>
+                            <li>User authentication and authorization</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-primary me-2">
+                            <i class="bi bi-play-circle"></i> Live Demo
+                        </a>
+                        <a href="#" class="btn btn-outline-primary">
+                            <i class="bi bi-github"></i> Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ML Chatbot -->
+            <div class="project-item">
+                <div class="project-image">
+                    <img src="prj-4.jpg" alt="ML Chatbot" class="img-fluid">
+                </div>
+                <div class="project-content">
+                    <h3>ML-based Chatbot</h3>
+                    <div class="tech-stack">
+                        <span class="badge bg-primary">AI/ML</span>
+                        <span class="badge bg-warning">NLP</span>
+                    </div>
+                    <p class="lead">An intelligent chatbot powered by machine learning and natural language processing for enhanced user interactions.</p>
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Intelligent user interaction through ML</li>
+                            <li>Personalized product recommendations</li>
+                            <li>Natural language understanding</li>
+                            <li>Context-aware responses</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-primary me-2">
+                            <i class="bi bi-play-circle"></i> Live Demo
+                        </a>
+                        <a href="#" class="btn btn-outline-primary">
+                            <i class="bi bi-file-earmark-text"></i> Documentation
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills py-5">
+        <div class="container">
+          <h2 class="text-center mb-3 animate__animated animate__fadeInUp">My Skills</h2>
+          
+          <!-- Description moved to the top center -->
+          <div class="text-center mb-4 animate__animated animate__fadeInUp">
+            <p class="lead">
+              I specialize in full-stack development with a strong foundation in data structures and algorithms.
+              My expertise spans frontend technologies, backend systems, and databases.
+            </p>
+          </div>
+      
+          <!-- Now full-width centered row for skill cards -->
+          <div class="row justify-content-center">
+            <div class="col-lg-10 animate__animated animate__fadeInUp">
+              <div class="skills-grid">
+                        <!-- DSA -->
+                        <div class="skill-card" data-skill="DSA">
+                            <div class="skill-icon">
+                                <i class="bi bi-diagram-3"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Data Structures & Algorithms</h4>
+                                <div class="skill-level">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 90%"></div>
+                                    </div>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Frontend Skills -->
+                        <div class="skill-card" data-skill="Frontend">
+                            <div class="skill-icon">
+                                <i class="bi bi-code-square"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Frontend Development</h4>
+                                <div class="skill-details">
+                                    <div class="skill-item">
+                                        <span>HTML</span>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 95%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <span>CSS</span>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 90%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <span>JavaScript</span>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 85%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <span>React</span>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 80%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Backend Skills -->
+                        <div class="skill-card" data-skill="Backend">
+                            <div class="skill-icon">
+                                <i class="bi bi-server"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Backend Development</h4>
+                                <div class="skill-details">
+                                    <div class="skill-item">
+                                        <span>Node.js</span>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 85%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Database Skills -->
+                        <div class="skill-card" data-skill="Database">
+                            <div class="skill-icon">
+                                <i class="bi bi-database"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Database Management</h4>
+                                <div class="skill-details">
+                                    <div class="skill-item">
+                                        <span>MongoDB</span>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 85%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <span>SQL</span>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 80%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 animate__animated animate__fadeInUp">Get In Touch</h2>
+            <div class="row">
+                <div class="col-lg-6 animate__animated animate__fadeInLeft">
+                    <form class="contact-form">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="name" placeholder="Name" required>
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="message" placeholder="Message" style="height: 150px" required></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg w-100">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-lg-6 animate__animated animate__fadeInRight">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="bi bi-envelope-fill"></i>
+                            <p>shivaprasadboya5@gmail.com</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="bi bi-telephone-fill"></i>
+                            <p>+91 9014361284</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <p>Kurnool, Andhra Pradesh, India</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4">
+        <div class="container">
+            <div class="social-links text-center mb-3">
+                <a href="https://github.com/shivaprasadboya" target="_blank" class="me-3"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/shiva-prasad-boya-839433293/" target="_blank" class="me-3"><i class="bi bi-linkedin"></i></a>
+                <!-- <a href="#" target="_blank"><i class="bi bi-twitter"></i></a> -->
+            </div>
+            <p class="text-center mb-0">&copy; 2025 shiva prasad boya. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html> 
